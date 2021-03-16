@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&family=Shippori+Mincho+B1:wght@700&display=swap');
+
+body{
+  background: url(../img/imagen1.jpg) no-repeat center top;
+  background-size: cover;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contenedor{
+  background-color: rgba(139, 0, 0, 0.5);
+  width: 70%;
+  height: 500px;
+  border-radius: 10px;
+}
+h1,p{
+  text-align: center;
+  color: white;
+}
+h1{
+  font-size: 60px;
+  font-family: 'Noto Sans JP', sans-serif;
+  }
+  p{
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: 'Shippori Mincho B1', serif;
+  }
+
+  button{
+    margin-top: 10px;
+    background-color: rgb(58, 98, 251);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+  }
+  button:hover{
+    background-color: rgba(0, 0, 0);
+    color:white;
+
+  }
+  .boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
